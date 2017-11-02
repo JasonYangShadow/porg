@@ -1,0 +1,9 @@
+dist: trusty
+sudo: required
+language: cpp
+compiler:
+    gcc
+before_install:
+    sudo apt-get intall pkg-config libgtkmm-3.0-dev
+script:
+    ./configure --disable-grop & make & make test
