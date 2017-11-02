@@ -7,4 +7,4 @@ before_install:
     - sudo apt-get -qq update
     - sudo apt-get install -y pkg-config libgtkmm-3.0-dev
 script:
-    ./configure --disable-grop & make & make test
+    ./configure --disable-grop & make 
