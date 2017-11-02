@@ -1,0 +1,26 @@
+##----------------------------------------------------------------------
+## ${prefix}/etc/porgrc: configuration file for porg.
+##
+## Copyright (C) 2015 David Ricart <http://porg.sourceforge.net>
+##
+## See the man page of porgrc(5) for more information.
+##
+## Equivalent command line options are specified in brackets.
+##----------------------------------------------------------------------
+
+# Log directory.
+# [-L|--logdir]
+#LOGDIR=/var/log/porg
+
+# Paths to scan when logging installations.
+# [-I|--include]
+#INCLUDE=/
+
+# Paths to exclude when logging installations.
+# [-E|--exclude]
+#EXCLUDE=/tmp:/dev:/proc:/sys:/run
+
+# Paths to skip when removing packages.
+# [-e|--skip]
+#REMOVE_SKIP=
+
